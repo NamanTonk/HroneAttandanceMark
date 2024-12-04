@@ -1,0 +1,97 @@
+package com.tracker.hroneattandacncemark.entity
+
+
+import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+data class LoginEntity(
+    @Json(name = "branch")
+    val branch: String?,
+    @Json(name = "branchCode")
+    val branchCode: String?,
+    @Json(name = "businessUnit")
+    val businessUnit: String?,
+    @Json(name = "businessUnitCode")
+    val businessUnitCode: String?,
+    @Json(name = "company")
+    val company: String?,
+    @Json(name = "companyCode")
+    val companyCode: String?,
+    @Json(name = "companyLogoPath")
+    val companyLogoPath: String?,
+    @Json(name = "dateOfBirth")
+    val dateOfBirth: String?,
+    @Json(name = "dateOfJoining")
+    val dateOfJoining: String?,
+    @Json(name = "department")
+    val department: String?,
+    @Json(name = "departmentCode")
+    val departmentCode: String?,
+    @Json(name = "designation")
+    val designation: String?,
+    @Json(name = "designationCode")
+    val designationCode: String?,
+    @Json(name = "domainCode")
+    val domainCode: String?,
+    @Json(name = "employeeCode")
+    val employeeCode: String?,
+    @Json(name = "employeeId")
+    val employeeId: Int?,
+    @Json(name = "employeeName")
+    val employeeName: String?,
+    @Json(name = "employeePhoto")
+    val employeePhoto: String?,
+    @Json(name = "employeeStatusId")
+    val employeeStatusId: Int?,
+    @Json(name = "employeeTypeId")
+    val employeeTypeId: Int?,
+    @Json(name = "firstName")
+    val firstName: String?,
+    @Json(name = "gender")
+    val gender: Int?,
+    @Json(name = "grade")
+    val grade: String?,
+    @Json(name = "gradeCode")
+    val gradeCode: String?,
+    @Json(name = "imageVirtualPath")
+    val imageVirtualPath: String?,
+    @Json(name = "inviteId")
+    val inviteId: Int?,
+    @Json(name = "isLoggedOn")
+    val isLoggedOn: Int?,
+    @Json(name = "lastName")
+    val lastName: String?,
+    @Json(name = "level")
+    val level: String?,
+    @Json(name = "levelCode")
+    val levelCode: String?,
+    @Json(name = "mobileNo")
+    val mobileNo: String?,
+    @Json(name = "officialEmail")
+    val officialEmail: String?,
+    @Json(name = "personalEmail")
+    val personalEmail: String?,
+    @Json(name = "providerId")
+    val providerId: Int?,
+    @Json(name = "region")
+    val region: String?,
+    @Json(name = "regionCode")
+    val regionCode: String?,
+    @Json(name = "salutation")
+    val salutation: Int?,
+    @Json(name = "salutationName")
+    val salutationName: String?,
+    @Json(name = "subBranch")
+    val subBranch: String?,
+    @Json(name = "subBranchCode")
+    val subBranchCode: String?,
+    @Json(name = "subDepartment")
+    val subDepartment: String?,
+    @Json(name = "subDepartmentCode")
+    val subDepartmentCode: String?,
+    @Json(name = "thumbnailFileName")
+    val thumbnailFileName: String?,
+    @Json(name = "uploadedFileName")
+    val uploadedFileName: String?
+)
